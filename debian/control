@@ -1,0 +1,13 @@
+Source: battery
+Maintainer: Jakob Bornecrantz <wallbraker@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: battery
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Build system for Volt programming language
+ Manages dependencies, downloads sources and builds packages
+ and binaries for the Volt programming language.
